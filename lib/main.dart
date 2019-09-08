@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Flutter Demo',
         home: Scaffold(
-            appBar: AppBar(title: Text("Hello World")),
+            appBar: AppBar(title: Text("My Flutter CV",textAlign: TextAlign.center)),
             body: Container(
                 decoration: BoxDecoration(color: Colors.amber),
                 padding: EdgeInsets.all(10),
